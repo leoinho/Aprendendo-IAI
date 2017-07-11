@@ -1,0 +1,119 @@
+header {
+	position: relative;
+	top: 18px;
+}
+header #topo {
+	width: 98%;
+	height: 100px;
+	background-color: black;
+	border-radius: 10px;
+	top: 18px;
+
+}
+header #titulo {
+	font-size: 40px;
+	color: #fff;
+	top: 16px;
+	left: 94px;
+	font-family: Open_Sans;
+	position: relative;
+}
+header #navbar {
+	width: 46%;
+    left: 635px;
+    top: -39px;
+    background-color: #BFBFBF;
+    border: none;
+}
+
+header ul li {
+	font-size: 25px;
+	display: inline-block;
+	font-family: Open_Sans;
+	color: #fff;
+}
+#topnav {
+	position: relative;
+    top: 7px;
+}
+header ul .lium{
+	position: relative;
+    right: -79px;
+} 
+header ul .lidois{
+	position: relative;
+	right: -205px;
+
+}
+section {
+	position: relative;
+	height: 409px;
+	width: 98%;
+	background-color: #BFBFBF;
+	border-radius: 10px;
+	left: 15px;
+    top: 25px;
+}
+#meio {
+	font-family: 'Open_Sans';
+	font-size: 22px;
+	color: #22313F;
+	top: 23px;
+    position: relative;
+}
+#video {
+	top: -37px;
+	width: 50%;
+	height: 60%;
+	left: 328px;
+}
+#obsum {
+	position: relative;
+    top: 32px;
+    left: 12px;
+}
+footer #esqueda {
+	position: relative;
+    left: 15px;
+    top: 62px;
+	width: 30%;
+	height: 200px;
+	border-radius: 10px;
+	display: block;
+	background-color: #BFBFBF;
+	left: 30px;
+
+}
+footer #central {
+	position: relative;
+    left: 15px;
+    top: 62px;
+	width: 30%;
+	height: 200px;
+	border-radius: 10px;
+	display: block;
+	background-color: #BFBFBF;
+	left: 72px;
+
+}
+footer #direita {
+	position: relative;
+    left: 15px;
+    top: 62px;
+	width: 30%;
+	height: 200px;
+	border-radius: 10px;
+	display: block;
+	background-color: #BFBFBF;
+	left: 113px;
+
+}
+#rodape {
+	position: relative;
+	width: 98%;
+	height: 200px;
+	background-color: black;
+	border-radius: 10px;
+	top: 100px;
+    left: 15px;
+}
