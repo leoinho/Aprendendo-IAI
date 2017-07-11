@@ -20,7 +20,7 @@ header #titulo {
 }
 header #navbar {
 	width: 46%;
-    left: 635px;
+    left: 544px;
     top: -39px;
     background-color: #BFBFBF;
     border: none;
@@ -47,10 +47,10 @@ header ul .lidois{
 }
 section {
 	position: relative;
-	height: 409px;
+	height: 411px;
 	width: 100%;
 	background-color: #BFBFBF;
-    top: 25px;
+    top: 51px;
 }
 #meio {
 	font-family: 'Open_Sans';
@@ -79,7 +79,7 @@ footer #esqueda {
 	border-radius: 10px;
 	display: block;
 	background-color: #BFBFBF;
-	left: 30px;
+	left: 15px;
 
 }
 footer #central {
@@ -91,7 +91,7 @@ footer #central {
 	border-radius: 10px;
 	display: block;
 	background-color: #BFBFBF;
-	left: 72px;
+	left: 56px;
 
 }
 footer #direita {
@@ -103,7 +103,7 @@ footer #direita {
 	border-radius: 10px;
 	display: block;
 	background-color: #BFBFBF;
-	left: 113px;
+	left: 96px;
 
 }
 #rodape {
@@ -113,3 +113,8 @@ footer #direita {
 	background-color: black;
 	top: 100px;
 }
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 61%;
+      margin: auto;
+  }
