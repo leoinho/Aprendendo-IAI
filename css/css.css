@@ -48,15 +48,14 @@ header ul .lidois{
 section {
 	position: relative;
 	height: 409px;
-	width: 98%;
+	width: 100%;
 	background-color: #BFBFBF;
-	border-radius: 10px;
 	left: 15px;
     top: 25px;
 }
 #meio {
 	font-family: 'Open_Sans';
-	font-size: 22px;
+	font-size: 19px;
 	color: #22313F;
 	top: 23px;
     position: relative;
@@ -110,10 +109,9 @@ footer #direita {
 }
 #rodape {
 	position: relative;
-	width: 98%;
+	width: 100%;
 	height: 200px;
 	background-color: black;
-	border-radius: 10px;
 	top: 100px;
     left: 15px;
 }
