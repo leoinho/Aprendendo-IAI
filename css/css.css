@@ -50,7 +50,6 @@ section {
 	height: 409px;
 	width: 100%;
 	background-color: #BFBFBF;
-	left: 15px;
     top: 25px;
 }
 #meio {
@@ -113,5 +112,4 @@ footer #direita {
 	height: 200px;
 	background-color: black;
 	top: 100px;
-    left: 15px;
 }
