@@ -1,3 +1,9 @@
+body {
+	background-repeat: no-repeat;
+	background-position: 80% 10%;
+	background-size: 500px 300px;
+	background-color: #67809F;
+}
 header {
 	position: relative;
 	top: 18px;
@@ -115,7 +121,7 @@ footer #direita {
 }
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 61%;
+      width: 38%;
       margin: auto;
   }
   table {
