@@ -3,135 +3,183 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Módulo 1</title>
+    <title>Módulo 2</title>
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/css.css">
+    
 
   </head>
-  <body background="img/body.jfif">
+ <body background="img/body.jfif">
     
-      <header>
-        
-          <div id="topo" class="container">
+    <header>
+
+        <div id="topo" class="container">
 
             <p id="titulo" class="row"><a href="index.html">Introdução a informática</a></p>
 
             <nav class="navbar navbar-inverse" id="navbar">
-            
-            <div id="topnav" class="container">
 
-              <ul>
-                <li class="lium"><a href="modulo1.html">Módulo 1</a></li>
-                <li class="lidois"><a href="modulo2.html">Módulo 2</a></li>
-                <li></li>
-              </ul>
-              
-            </div>
+                <div id="topnav" class="container">
 
-        </nav>
+                    <ul>
+                        <li class="lium"><a href="modulo1.html">Módulo 1</a></li>
+                        <li class="lidois"><a href="modulo2.html">Módulo 2</a></li>
+                        <li></li>
+                    </ul>
 
-          </div>
-          <div class="container" id="meio" align="height">
-          <h1 align="center">Módulo 2</h1>
+                </div>
 
-          <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SUMÁRIO:<br>
-            
-            <ol>
-              <li>Algebra de Bolle</li>
-              <li>Circuito</li>
-              <li>Mapa de Karnaugh</li>
-            </ol><br><br><br>
-            <h2>1. Algebra de Bolle</h2>
-          </p>
-              
-            
-            </div>
-        </header>
+            </nav>
 
-          
-          <section>
-
-
-          <table border="2" class="container" cellspacing="5">
-
-            <tr><td rowspan="3" id="telaprincipal"><img src="img\video.jfif"></td><td><img src="img\video.jfif"></td><td><img src="img\video.jfif"></td></tr>
-            <tr><td><img src="img\video.jfif"></td><td><img src="img\video.jfif"></td></tr>
-            <tr><td><img src="img\video.jfif"></td><td><img src="img\video.jfif"></td></tr>
-
-          </table>
-
-          <br><br>
-
-                
         </div>
-        
-             </section><br>
-             <h2 class="container">2.Circuito</h2>
-             <section>
+        <div class="container" id="meio" align="height">
+            <h1 align="center">Módulo 2</h1>
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SUMÁRIO:<br>
+
+                <ol>
+                    <li>Algebra de Bolle</li>
+                    <li>Circuito</li>
+                    <li>Mapa de Karnaugh</li>
+                </ol><br><br><br>
+                <h2>1. Algebra de Bolle</h2>
+            </p>
 
 
-          <table border="" class="container" cellspacing="5">
-
-            <tr><td rowspan="3" id="telaprincipal"><img src="img\video.jfif"></td><td><img src="img\video.jfif"></td><td><img src="img\video.jfif"></td></tr>
-            <tr><td><img src="img\video.jfif"></td><td><img src="img\video.jfif"></td></tr>
-            <tr><td><img src="img\video.jfif"></td><td><img src="img\video.jfif"></td></tr>
-
-          </table>
-
-          <br><br>
-
-                
         </div>
-        
-             </section>
-             <h2 class="container">3.Mapa de Karnaugh</h2>
-             <section>
+    </header>
 
 
-          <table border="" class="container" cellspacing="5">
+    <section>
 
-            <tr><td rowspan="3" id="telaprincipal"><img src="img\video.jfif"></td><td><img src="img\video.jfif"></td><td><img src="img\video.jfif"></td></tr>
-            <tr><td><img src="img\video.jfif"></td><td><img src="img\video.jfif"></td></tr>
-            <tr><td><img src="img\video.jfif"></td><td><img src="img\video.jfif"></td></tr>
 
-          </table>
+        <div id="posiçaoseleçao" class="carousel slide" data-ride="carousel">
+    <span>
+    <ol class="carousel-indicators">
+      
+        <li data-target="#myCarousel" id="seleçao" data-slide-to="0" class="active" onclick="videocentral1()"><p id="pvideo">video1</p></li>
+        <li data-target="#myCarousel" id="seleçao" data-slide-to="1" onclick="videocentral2()"><p id="pvideo">video2</p></li>
+        <li data-target="#myCarousel" id="seleçao" data-slide-to="2" onclick="videocentral3()"><p id="pvideo">video3</p></li>
+        <li data-target="#myCarousel" id="seleçao" data-slide-to="3" onclick="videocentral4()"><p id="pvideo">video4</p></li>
+        <li data-target="#myCarousel" id="seleçao" data-slide-to="4" onclick="videocentral5()"><p id="pvideo">video5</p></li>
+   </span>   
+    </ol>
 
-          <br><br>
-
-                
-        </div>
-        
-             </section>
-             <div class="container" id="espaço">
-            
-          </div>
-             <footer>
-              
-              
-        <div class="row" >
-          <div id="esqueda" class="col-xs-4">
-              
-          </div>
-          <div id="central" class="col-xs-4">
-              
-          </div>
-          <div id="direita" class="col-xs-4">
-              
-          </div>
-        </div>
-        <div id="rodape">
-          
-        </div>
-        
-
-             </footer>
+    
+    <div id="ajustecar ousel" class="carousel-inner" id="aqui" role="listbox">
+      <div class="item active">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe id="video" width="560" height="315" src="..." frameborder="0" allowfullscreen></iframe>
+      </div>
 
       
+    </div>
 
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    
+    
+  </div>
+                
+        </div>
+    </section><br>
+    <h2 class="container">2.Circuito</h2>
+    <section>
 
 
-  </body>
+        <div id="posiçaoseleçao" class="carousel slide" data-ride="carousel">
+    <span>
+    <ol class="carousel-indicators">
+      
+        <li data-target="#myCarousel" id="seleçao" data-slide-to="0" class="active" onclick="videocentral1()"><p id="pvideo">video1</p></li>
+        <li data-target="#myCarousel" id="seleçao" data-slide-to="1" onclick="videocentral2()"><p id="pvideo">video2</p></li>
+        <li data-target="#myCarousel" id="seleçao" data-slide-to="2" onclick="videocentral3()"><p id="pvideo">video3</p></li>
+        <li data-target="#myCarousel" id="seleçao" data-slide-to="3" onclick="videocentral4()"><p id="pvideo">video4</p></li>
+        <li data-target="#myCarousel" id="seleçao" data-slide-to="4" onclick="videocentral5()"><p id="pvideo">video5</p></li>
+   </span>   
+    </ol>
+
+    
+    <div id="ajustecar ousel" class="carousel-inner" id="aqui" role="listbox">
+      <div class="item active">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe id="video" width="560" height="315" src="..." frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      
+    </div>
+
+    
+    
+  </div>
+                
+        </div>
+    </section>
+    <h2 class="container">3.Mapa de Karnaugh</h2>
+    <section>
+
+
+        <div id="posiçaoseleçao" class="carousel slide" data-ride="carousel">
+    <span>
+    <ol class="carousel-indicators">
+      
+        <li data-target="#myCarousel" id="seleçao" data-slide-to="0" class="active" onclick="videocentral1()"><p id="pvideo">video1</p></li>
+        <li data-target="#myCarousel" id="seleçao" data-slide-to="1" onclick="videocentral2()"><p id="pvideo">video2</p></li>
+        <li data-target="#myCarousel" id="seleçao" data-slide-to="2" onclick="videocentral3()"><p id="pvideo">video3</p></li>
+        <li data-target="#myCarousel" id="seleçao" data-slide-to="3" onclick="videocentral4()"><p id="pvideo">video4</p></li>
+        <li data-target="#myCarousel" id="seleçao" data-slide-to="4" onclick="videocentral5()"><p id="pvideo">video5</p></li>
+   </span>   
+    </ol>
+
+    
+    <div id="ajustecar ousel" class="carousel-inner" id="aqui" role="listbox">
+      <div class="item active">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe id="video" width="560" height="315" src="..." frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      
+    </div>
+
+    
+    
+  </div>
+                
+        </div>
+    </section>
+    <div class="container" id="espaço">
+
+    </div>
+    <footer>
+
+
+        <div class="row">
+            <div id="esqueda" class="col-xs-4">
+
+            </div>
+            <div id="central" class="col-xs-4">
+
+            </div>
+            <div id="direita" class="col-xs-4">
+
+            </div>
+        </div>
+        <div id="rodape">
+
+        </div>
+
+
+    </footer>
+    <script type="text/javascript">
+  function videocentral1() {
+   document.getElementById('video');
+    document.getElementById("video").src = "video/video1.mp4";
+}
+function videocentral2() {
+   document.getElementById('video');
+    document.getElementById("video").src = "video/video2.mp4";
+}
+</script>
+
+
+</body>
