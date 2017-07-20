@@ -65,7 +65,37 @@ section {
 	top: 23px;
     position: relative;
 }
-#video {
+#video1 {
+	top: -37px;
+	width: 50%;
+	height: 60%;
+	left: 328px;
+}
+#video2 {
+	top: -37px;
+	width: 50%;
+	height: 60%;
+	left: 328px;
+}
+#video3 {
+	top: -37px;
+	width: 50%;
+	height: 60%;
+	left: 328px;
+}
+#video4 {
+	top: -37px;
+	width: 50%;
+	height: 60%;
+	left: 328px;
+}
+#video5 {
+	top: -37px;
+	width: 50%;
+	height: 60%;
+	left: 328px;
+}
+#video6 {
 	top: -37px;
 	width: 50%;
 	height: 60%;
